@@ -1,5 +1,6 @@
 body{
-  background: #4d4d4d;
+  background: url(../images/the-wire-title.jpg);
+  background-size: 1500px 1000px;
   color:white;
   font-family:'Open Sans', sans-serif;
   font-weight:300;
@@ -10,29 +11,42 @@ body{
 
 header{
   padding:20px;
+  font-family: Rubik Mono One;
 }
 
 h1{
   font-weight:800;
-  font-size:30px;
+  font-size:40px;
 }
 
 p{
-  font-size:14px;
+  font-family: Josefin Slab;
+  font-size:15px;
   line-height:115%;
   border: 1px solid grey;
-  padding:10px;
+  padding:5px;
   width:80%;
   margin:0 auto;
+  color: #eee;
+
+}
+
+#your_number{
+  font-family: Permanent Marker;
+  font-size: 200%;
+  padding-top: 10px;
 }
 
 #random-number{
+  font-family: Permanent Marker;
   padding-top:50px;
   font-size:70px;
   height:70px;
 }
 
 #wins{
+  font-family: Passion One;
+  font-size: 200%;
   text-align:right;
   padding-bottom:15px;
   color:#66ff33;
@@ -42,6 +56,8 @@ p{
 }
 
 #losses{
+  font-family: Passion One;
+  font-size: 200%;
   text-align:left;
   padding-bottom:15px;
   color:#ff8080;
@@ -67,34 +83,37 @@ p{
 }
 
 #crystal1{
-  background: url(../images/blue.png);
+  background: url(../images/The_Wire_Clay_Davis.jpg);
   background-size: 100% 100%;
   float:right;
 }
 
 #crystal2{
-  background: url(../images/green.png);
+  background: url(../images/The_Wire_Marlo.jpg);
   background-size: 100% 100%;
   float:right;
 }
 
 #crystal3{
-  background: url(../images/red.png);
+  background: url(../images/The_Wire_Avon.jpg);
   background-size: 100% 100%;
   float:left;
 }
 
 #crystal4{
-  background: url(../images/yellow.png);
+  background: url(../images/Omar.jpg);
   background-size: 100% 100%;
   float:left;
 }
 
 #score-title{
+  font-family: Permanent Marker;
+  font-size: 200%;
   clear:both;
 }
 
 #score{
-  font-size:50px;
+  font-family: Permanent Marker;
+  font-size: 200%;
   padding-top:15px;
 }
